@@ -1,0 +1,6 @@
+cd app
+docker build -t saas-app:v1 .
+docker run -p 3000:3000 -e APP_VERSION=v1 saas-app:v1
+
+http://localhost:3000
+http://localhost:3000/health
