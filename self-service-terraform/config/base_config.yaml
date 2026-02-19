@@ -1,0 +1,27 @@
+# environments:
+#   dev:
+#     vm_count: 0
+#     zone: us-central1-a
+#     tags: [dev]
+
+#   prod:
+#     vm_count: 1
+#     zone: us-central1-b
+#     tags: [prod, pci]
+
+environments:
+  dev:
+    instances:
+      dev-app-1:
+        zone: us-central1-a
+        tags: [dev]
+
+  prod:
+    instances:
+      prod-app-5:
+        zone: us-central1-b
+        tags: [prod, pci]
+
+      prod-app-6:
+        zone: us-central1-b
+        tags: [prod, pci]

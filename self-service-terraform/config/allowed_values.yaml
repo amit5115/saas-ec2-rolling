@@ -1,0 +1,10 @@
+allowed:
+  environments:
+    - dev
+    - prod
+
+  vm_sizes:
+    - e2-medium
+    - e2-standard-2
+
+  max_disk_size: 200
